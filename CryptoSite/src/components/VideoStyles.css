@@ -1,0 +1,91 @@
+
+
+
+.hero {
+    height: 80vh;
+    width: 100%;
+    object-fit: contain;
+     background: linear-gradient(to right, rgb(28, 28, 48), rgb(87, 37, 37), rgb(165, 165, 58), rgb(43, 82, 33));
+}
+
+.hero1 {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+.hero1 .left {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* background: url('../assets/AS.png') no-repeat center center; */
+    margin: 1rem .0rem; 
+}
+
+.hero1 .content {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+    margin: auto;
+    margin: 0rem .4rem;
+}
+
+
+.content {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: auto;
+}
+.hero .content h1 {
+    font-size: 4rem;
+    color: #fff;
+}
+
+h2 {
+    
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 1rem;
+    font-weight: 200;
+    margin-bottom: 1.6rem;
+    color: #fff;
+}
+
+.hero .btn {
+    margin: 1rem .2rem;
+}
+
+@media screen and (max-width:640px) {
+    .content h1 {
+        font-size: 3rem;
+        padding: 0px;
+    }
+
+    .content p {
+        font-size: 1rem;
+        margin-bottom: 1.6rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
